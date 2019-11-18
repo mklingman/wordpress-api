@@ -1,0 +1,514 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	font-family: avenir next;
+}
+
+
+
+HTML {
+	scroll-behavior: smooth;
+}
+
+.homer {
+	display: flex;
+	justify-content: center;
+	font-size: 1.2rem;
+	padding-top: 1.8rem;
+}
+
+/*ABOUT PAGE IMG*/
+.aboutcover {
+	background-image: url(img/kino.jpg);
+
+}
+
+.homer1 {
+	display: flex;
+	justify-content: center;
+}
+
+.aboutclub {
+	padding-left: 20vw;
+	padding-right: 20vw;
+	padding-top: 12vh;
+	color: #D9F2FB;
+	font-size: 3.2rem;
+
+}
+
+.abouthome {
+	text-decoration: none;
+	color: black;
+}
+
+.abouthome:hover {
+	color: darkslategre;
+	text-decoration: underline;
+	/*	text-decoration-color: black;*/
+	/*	text-shadow: 1px 0px black;*/
+	/*	opacity: .9;*/
+
+}
+
+.searcher {
+	padding-left: .3rem;
+
+
+}
+
+/*search area decoration, still workng on blue off*/
+input[type=search] {
+	width: 60px;
+	border: 2px solid black;
+	border-radius: 12px;
+	font-size: 12px;
+	background-color: whitesmoke;
+	/*	background-image: url('searchicon.png');*/
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding: 4px 1px 4px 4px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+
+input[type=search]:focus {
+	outline: none;
+}
+
+input[type=search]:focus {
+	width: 20%;
+}
+
+input[type=submit] {
+	border-radius: 12px;
+}
+
+input[type=submit]:hover {
+	background-color: black;
+	/* button background */
+	border: 1px solid white;
+	/* button border */
+	color: white;
+	border-radius: 12px;
+}
+
+/*and above this statement !!!*/
+
+
+#subpage {
+	background-image: url(img/kino.jpg)
+}
+
+#subpage p {
+	color: white;
+	padding-right: 40vw;
+}
+
+.topic-item {
+	height: auto;
+}
+
+/*
+a {
+	color: #000000;
+	text-decoration: underline;
+	outline: none;
+}
+
+a:hover,
+a:focus {
+	color: #000000;
+	text-decoration: underline;
+}
+*/
+
+button {
+	cursor: pointer;
+}
+
+article h1,
+p {
+	display: flex;
+	flex-direction: column;
+	/*	flex-flow: column-reverse;*/
+	/*	text-align-last: center;*/
+	text-align-last: inherit;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+
+.jump {
+	text-decoration: none;
+	color: black;
+	/*	padding-right: 2.2rem;*/
+	font-size: 1.2rem;
+	/*
+	display: flex;
+	justify-content: flex-end;
+*/
+
+}
+
+.jump:hover {
+	color: ghostwhite;
+	background-color: black;
+	font-weight: 400;
+	border-radius: 4px;
+}
+
+.jumptop {
+	text-decoration: none;
+	color: black;
+	font-size: 1.2rem;
+	padding-left: 2.2rem;
+	text-align: left;
+
+}
+
+.jumptop:hover {
+	color: whitesmoke;
+	background-color: lightgrey;
+	font-weight: 400;
+	border-radius: 4px;
+}
+
+#feet {
+	display: grid;
+	flex-direction: row-reverse;
+	align-self: flex-start;
+	grid-template-columns: repeat(3, 1fr);
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.feets {
+	display: grid;
+	justify-content: center;
+}
+
+article.topic-item {
+	/*
+	outline-style: solid;
+	outline-color: black;
+*/
+	background-color: white;
+	outline-width: .1em;
+	/*	border-radius: 25%;*/
+	border-radius: 20px;
+	border: 1px solid black;
+	box-shadow: 4;
+
+}
+
+section#posts {
+	padding-top: 2em;
+}
+
+
+main > section {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+	grid-gap: 4rem;
+	max-width: 1200px;
+	grid-template-rows: 1fr;
+	margin: 0 auto;
+
+}
+
+main > section h1 {
+	grid-column: 1/-1;
+	font-size: 1.5rem;
+	margin: 6rem 0 0 0;
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+
+}
+
+img.cover:hover {
+	opacity: .9;
+}
+
+article img {
+	max-width: 100%;
+	display: block;
+	margin-top: auto;
+	height: auto;
+	align-self: center;
+}
+
+
+}
+
+h1:hover {
+	transition: all .3s ease;
+}
+
+h1:hover {
+	/*	background-color: lightcyan;*/
+	/*	width: 50px;*/
+	opacity: .9;
+	color: black;
+	text-shadow: 2px 2px silver;
+}
+
+
+
+h2.aboutclub:hover {
+	transition: all .3s ease;
+
+}
+
+h2.aboutclub:hover {
+	/*	background-color: lightcyan;*/
+	/*	width: 50px;*/
+	opacity: .9;
+	color: black;
+	text-shadow: 2px 2px silver;
+	background-color: whitesmoke;
+
+}
+
+
+.body-copy {
+	padding-left: .5em;
+	color: black
+}
+
+/*container for logo is below ! !*/
+
+.container1 {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.logo {
+	position: fixed;
+	padding-right: 1rem;
+	padding-top: 3rem;
+}
+
+.logo:hover {
+	opacity: .8;
+}
+
+
+
+form {
+
+	padding-bottom: 1rem;
+	padding-right: 2.2rem;
+	/*
+	display: flex;
+	justify-content: flex-end;
+*/
+}
+
+#top {
+	/*	background-image: url(img/curve.jpg);*/
+	background-image: url(img/mod1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	*/
+	/*	background-blend-mode: overlay;*/
+
+
+}
+
+body#topper {
+	/*	color: black;*/
+	background-color: lightgray;
+
+	/*
+	background-image: url(img/curve.jpg);
+	background-size: contain;
+
+	background-blend-mode: overlay;
+*/
+
+}
+
+.thensome {
+	display: flex;
+	justify-content: center;
+	font-size: 6vh
+}
+
+.thensome {
+	animation: slide-in-left 1.6s cubic-bezier(.25, .46, .45, .94) both;
+
+}
+
+@keyframes slide-in-left {
+	0% {
+		transform: translateX(-1000px);
+		opacity: 0
+	}
+
+	100% {
+		transform: translateX(0);
+		opacity: 1
+	}
+}
+
+nav a:hover {
+	color: darkslategre;
+	text-decoration: underline;
+	text-decoration-color: black;
+	opacity: .8;
+
+}
+
+nav {
+	width: max-content;
+	margin: auto;
+}
+
+
+nav a {
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+}
+
+article a {
+	text-decoration: none;
+	color: black;
+}
+
+
+/*for mobile below*/
+
+
+@media screen and (max-width: 515px) {
+	.nav-items a {
+		padding: 3px;
+		font-size: 2.3rem;
+
+
+	}
+
+	.aboutclub {
+		color: black;
+		font-size: 1.2rem;
+		padding-left: 4vw;
+
+	}
+
+
+	article h1,
+	p {
+		display: flex;
+		flex-direction: column;
+		/*		flex-flow: column-reverse;*/
+		text-align-last: inherit;
+		padding-left: 4vw;
+		padding-right: 4vw;
+
+	}
+
+
+	.thensome {
+		font-size: 2rem;
+		padding-top: 20px;
+		padding-bottom: 3vh;
+	}
+
+	.logo {
+		width: 22vw;
+		height: auto;
+
+	}
+
+
+	/*
+	header > ul > li {
+		border-radius: 1px;
+		padding: 2px;
+
+	}
+*/
+
+
+	main > section h1 {
+		font-size: 1.4rem;
+
+	}
+
+	#feets {
+		padding: inherit;
+
+	}
+
+	.nav1 a {
+		font-size: 5vw;
+		padding-top: 2vh;
+	}
+
+}
+
+@media screen and (max-width: 611px) {
+	a.jumptop {
+		font-size: 3vw;
+		padding-left: 3vw;
+		padding-right: 1.2rem;
+
+	}
+
+	a.jump {
+		font-size: 3vw;
+		padding-left: 3vw;
+		padding-right: 1.2rem;
+
+	}
+
+
+	.searcher {
+		padding-left: 3vw;
+	}
+
+	.logo {
+		padding-right: 3vw;
+
+	}
+
+	.feets {
+		font-size: 2vw;
+
+	}
+
+	.logo {
+		padding-top: 22vh;
+	}
+
+	main > section {
+		grid-gap: 5rem;
+	}
+}
+
+@media screen and (max-width: 770px) {
+	.logo {
+		padding-top: 17.1vh;
+	}
+
+	#subpage p {
+		color: white;
+		padding-right: 20vw;
+	}
+
+	#top {
+		/*		background-image: url(img/curve.jpg);*/
+		background-size: contain;
+
+		background-image: url(img/mod1.jpg);
+		/*	background-size: cover;*/
+		background-attachment: fixed;
+
+	}
